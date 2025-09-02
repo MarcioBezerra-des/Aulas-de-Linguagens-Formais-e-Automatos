@@ -1,1 +1,1 @@
-# Aulas-de-Linguagens-Formais-e-Aut-matos
+# Aulas-de-Linguagens-Formais-e-Automatos
