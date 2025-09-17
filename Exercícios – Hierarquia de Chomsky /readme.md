@@ -3,9 +3,13 @@ Exercícios – Hierarquia de Chomsky
 1. A Hierarquia de Chomsky classifica linguagens formais com base em: 
 
 a) Estrutura de dados e algoritmos 
+
 b) Complexidade computacional e de memória 
+
 c) Complexidade sintática e poder de geração (correto)
+
 d) Arquitetura de sistemas operacionais 
+
 e) Tipos de compiladores 
 
 ~~~py
@@ -21,9 +25,13 @@ print("Tipo 0 (Irrestrita): Qualquer linguagem computável.")
 2. Qual das alternativas representa corretamente a ordem de inclusão da Hierarquia de Chomsky? 
 
 a) Tipo 3 ⊂ Tipo 2 ⊂ Tipo 1 ⊂ Tipo 0 (correto)
+
 b) Tipo 0 ⊂ Tipo 1 ⊂ Tipo 2 ⊂ Tipo 3 
+
 c) Tipo 1 ⊂ Tipo 3 ⊂ Tipo 0 ⊂ Tipo 2 
+
 d) Tipo 3 ⊂ Tipo 1 ⊂ Tipo 2 ⊂ Tipo 0 
+
 e) Tipo 2 ⊂ Tipo 3 ⊂ Tipo 1 ⊂ Tipo 0 
 
 ~~~py
@@ -42,9 +50,13 @@ print("\nOrdem de inclusão: Tipo 3 ⊂ Tipo 2 ⊂ Tipo 1 ⊂ Tipo 0")
 3. As gramáticas do Tipo 2 (livres de contexto) são reconhecidas por: 
 
 a) Máquinas de Turing 
+
 b) Autômatos com Pilha (correto)
+
 c) Autômatos Finitos 
+
 d) Máquinas Linearmente Limitadas 
+
 e) Compiladores sintáticos 
 
 ~~~py
@@ -71,9 +83,13 @@ print(f"'abb' pertence a L? {reconhecedor_an_bn('abb')}")
 4. Qual linguagem pertence ao Tipo 1 (sensível ao contexto)? 
 
 a) L = {aⁿbⁿ} 
+
 b) L = {aⁿbⁿcⁿ} (correto)
+
 c) L = {aⁿbᵐ | n,m ≥ 0} 
+
 d) L = {cadeias com número par de 1s} 
+
 e) L = {palíndromos de a e b} 
 
 ~~~py
@@ -100,9 +116,13 @@ print(f"'acb' pertence a L? {reconhecedor_an_bn_cn('acb')}")
 5. A linguagem L = {0ⁿ1ⁿ | n ≥ 0} pertence a: 
 
 a) Linguagens regulares 
+
 b) Linguagens irrestritas 
+
 c) Linguagens sensíveis ao contexto 
+
 d) Linguagens livres de contexto (correto)
+
 e) Nenhuma das anteriores 
 
 ~~~py
@@ -140,9 +160,13 @@ print(f"'001' pertence a L? {reconhecedor_0n_1n('001')}")
 6. Qual das alternativas contém apenas linguagens regulares? 
 
 a) {aⁿbⁿ, n ≥ 0} 
+
 b) {cadeias palíndromas} 
+
 c) {cadeias com número par de 1s} (correto)
+
 d) {aⁿbⁿcⁿ} 
+
 e) {aⁿbⁿbⁿaⁿ} 
 
 ~~~py
@@ -162,9 +186,13 @@ print(f"'' tem nº par de 1s? {reconhecedor_par_de_1s('')}") # 0 (par)
 7. Qual tipo de máquina reconhece linguagens do Tipo 0? 
 
 a) Autômato com Pilha 
+
 b) Autômato Finito Determinístico 
+
 c) Máquina de Turing (correto)
+
 d) Máquina Linearmente Limitada 
+
 e) Máquina de Von Neumann 
 
 ~~~py
@@ -189,9 +217,13 @@ print(f"A cadeia 'abc' representa um número primo? {is_prime_language('abc')}")
 8. As gramáticas sensíveis ao contexto exigem que: 
 
 a) A produção dependa da posição do terminal 
+
 b) As regras sejam no formato A → γ 
+
 c) As regras preservem ou aumentem o comprimento das cadeias (correto)
+
 d) O símbolo inicial seja sempre preservado 
+
 e) A linguagem seja regular 
 
 ~~~py
@@ -211,9 +243,13 @@ print(f"Regra 'aB -> b' é válida? {verifica_regra_sensivel_contexto('aB', 'b')
 9. Expressões regulares são utilizadas para representar linguagens: 
 
 a) Irrestritas 
+
 b) Livres de contexto 
+
 c) Sensíveis ao contexto 
+
 d) Regulares (correto)
+
 e) Palindrômicas 
 
 ~~~py
@@ -234,9 +270,13 @@ print(f"'ac' pertence à linguagem? {pertence_a_linguagem('ac')}")
 10. Sobre as máquinas que reconhecem cada classe, assinale a alternativa correta: 
 
 a) Todas as linguagens são reconhecidas por autômatos finitos 
+
 b) Linguagens sensíveis ao contexto são reconhecidas por compiladores 
+
 c) Apenas máquinas de Turing reconhecem linguagens regulares 
+
 d) Linguagens livres de contexto são reconhecidas por autômatos com pilha (correto)
+
 e) Máquinas de Turing não reconhecem linguagens irrestritas 
 
 ~~~py
